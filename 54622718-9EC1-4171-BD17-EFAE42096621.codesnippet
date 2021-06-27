@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>WS</string>
+	<string>HWS</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -17,10 +17,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>WS</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>WeakSelf</string>
+	<string>HWS-WeakSelf</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HPS</string>
+	<string>HBActiveN</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSString *&lt;#name#&gt;;</string>
+	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleBecomeAcitonNoti:) name:UIApplicationDidBecomeActiveNotification object:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>07C95295-86BA-4E49-B570-7ED6FD2F4CEE</string>
+	<string>D07CADD5-5790-4E40-8D2F-AE94D2DEBCB2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Property String</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>HPS-Property String</string>
+	<string>HBActiveN-becomeAcitonNoti</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

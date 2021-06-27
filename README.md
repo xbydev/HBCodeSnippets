@@ -2,32 +2,21 @@
 
 ##快捷键
 <br>
-1、PS ,对应：
+1、HPS - Property NSString
 
-```
-@property (nonatomic, strong) NSString *<#name#>;
-```
+2、HPI - Property Integer
 
-2、PI,对应：
+3、HPB - Property BOOL
 
-```
-@property(nonatomic, assign) NSInteger <#name#>;
-```
+4、HWS - WeakSelf
 
-3、PB,对应：
+5、HSS - StrongSelf
 
-```
-@property (nonatomic, assign) BOOL <#name#>;
-```
+6、HAlert - 通用alertView
 
-4、WS，对应：
+7、HBActiveN - becomeAcitonNoti
 
-```
-__weak typeof(self) weakSelf = self;
-```
+8、HUerDeS - userDefaultSave
 
-5，SS，对应：
+9、HUserDeR - UserDefaultRead
 
-```
-__strong typeof(weakSelf) strongSelf = weakSelf;
-```

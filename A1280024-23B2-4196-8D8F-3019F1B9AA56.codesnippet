@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>HAlert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIAlertController *alertCtrl = [UIAlertController alertControllerWithTitle:@"保持新的记录" message:@"检测到剪贴板有内容，是否要去创建新的记录呢？" preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"去创建" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            NSLog(@"好的");
+        }];
+        
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"不用了" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            NSLog(@"取消");
+        }];
+        
+        [alertCtrl addAction:okAction];
+        [alertCtrl addAction:cancelAction];
+        [self presentViewController:alertCtrl animated:YES completion:nil];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A1280024-23B2-4196-8D8F-3019F1B9AA56</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>HAlert-通用alertView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

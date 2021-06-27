@@ -3,24 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HPS</string>
+	<string>HUerDeS</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSString *&lt;#name#&gt;;</string>
+	<string>NSUserDefaults* udef = [NSUserDefaults standardUserDefaults];
+            if (pasteInfo) {
+                [udef setObject:pasteInfo forKey:PASTEBOARD_MARK];
+                [udef synchronize];
+            }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>07C95295-86BA-4E49-B570-7ED6FD2F4CEE</string>
+	<string>03AD3E92-7301-4AA4-90E7-226AE21F92D3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Property String</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>HPS-Property String</string>
+	<string>HUerDeS-userDefaultSave</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HPS</string>
+	<string>HUserDeR</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSString *&lt;#name#&gt;;</string>
+	<string>NSUserDefaults* udef = [NSUserDefaults standardUserDefaults];
+    NSString *savedInfo = [udef objectForKey:PASTEBOARD_MARK];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>07C95295-86BA-4E49-B570-7ED6FD2F4CEE</string>
+	<string>38D3B9E4-44AF-4814-A916-5E5BD9176E20</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Property String</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>HPS-Property String</string>
+	<string>HUserDeR-UserDefaultRead</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
